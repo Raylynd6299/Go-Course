@@ -19,6 +19,30 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
 #Implicito\n
   Nombre := Valor
 ```
+#Tipos de Datos#
+```Go
+#Enteros
+  var entero int 
+#Flotante
+  var real float64
+#Cadenas
+  var cadena string
+#Slice o Arreglo
+  var array []int //int se cambia por el tipo deseado
+#Matrices
+  var matris [][]int
+#Maps
+  var mapp map[Tipo_llave]Tipo_Valor
+#Estructuras
+  type NombreEstructura struct{
+  	Valores
+  }
+#Interfaces
+  type NombreInterfaz interface {
+  	NombreFuncion Retorno
+  	...
+  }
+```
 # Slice en Go #
 ```Go
 #Creacion de Slice
@@ -26,7 +50,9 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
   array := []int{var1,var2,var3}
 #Form 2
   array := make([]int,longitud,capacidad)
-
+```
+# Ciclos de Control #
+```
 #Versiones de For
   for{
 
@@ -45,3 +71,23 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
 
 #Recorrer un slice por partes
   array[1:5]
+```
+#Estructura de FUnciones#
+
+```
+#La estructura 
+   func (r receptor) NameFucntion(Argumentos) (Valores de Retorno){}
+   
+#Ejemplo
+   func Suma(x,y int) int{
+   	return x+y
+   }
+#Ejemplo 2
+  type Humano struct{
+  	Nombre,Apellido string
+  	Edad int
+  }
+  func (h Humano) Presentar() string{
+  	return fmt.Sprint("Hola, yo soy",h.Nombre," ",h.Apellido)
+  }
+```
