@@ -52,7 +52,7 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
   array := make([]int,longitud,capacidad)
 ```
 # Ciclos de Control #
-```
+```Go
 # Versiones de For 
   for{
 
@@ -73,8 +73,7 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
   array[1:5]
 ```
 # Estructura de Funciones #
-
-```
+```Go
 # La estructura 
    func (r receptor) NameFucntion(Argumentos) (Valores de Retorno){}
    
