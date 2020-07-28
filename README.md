@@ -53,7 +53,7 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
 ```
 # Ciclos de Control #
 ```
-#Versiones de For
+# Versiones de For 
   for{
 
   }
@@ -72,10 +72,10 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
 #Recorrer un slice por partes
   array[1:5]
 ```
-#Estructura de FUnciones#
+# Estructura de Funciones #
 
 ```
-#La estructura 
+# La estructura 
    func (r receptor) NameFucntion(Argumentos) (Valores de Retorno){}
    
 #Ejemplo
