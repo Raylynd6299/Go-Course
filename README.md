@@ -12,7 +12,7 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
   fmt.Printf("Hola Mundo")
 ```
 
-# Variables \n #
+# Variables #
 ```Go
 #Explicita \n
   var Nombre Tipo
