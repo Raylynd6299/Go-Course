@@ -31,18 +31,14 @@ Go es un lenguaje de programación concurrente y compilado inspirado en la sinta
   for{
 
   }
-  end
 #Version comun del For
   for i:=0; i<max ; i++ {
 
   }
-  end
 #Version de For Each
   for in,v := range Slice{
 
   }
-  end
-
 
 #Agregar elementos al slice
   array = append(array,elemento)
